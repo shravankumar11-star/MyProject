@@ -1,0 +1,27 @@
+package com.orderService.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.BaseDomain.dto.Order;
+import com.orderService.kafka.OrderProducer;
+
+@RestController
+@RequestMapping("/api")
+public class OrderController {
+	
+	private OrderProducer orderProducer ;
+	
+	
+	@PostMapping("/order")
+	public String placeOrder(@RequestBody Order order) {
+		
+		
+	}
+	
+	
+	
+
+}

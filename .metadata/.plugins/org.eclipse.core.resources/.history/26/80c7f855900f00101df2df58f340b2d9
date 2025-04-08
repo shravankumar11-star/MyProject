@@ -1,0 +1,5 @@
+package com.BaseDomain.dto;
+
+public class Order {
+
+}

@@ -1,0 +1,13 @@
+package com.BaseDomain.dto;
+
+
+@D
+public class OrderEvent {
+	
+	private String message;
+	private String status;
+	private String order;
+	
+	
+	
+}

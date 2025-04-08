@@ -1,0 +1,15 @@
+package com.orderService.kafka;
+
+import org.apache.kafka.clients.admin.NewTopic;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Service;
+
+import com.BaseDomain.dto.OrderEvent;
+
+@Service
+public class OrderProducer {
+
+	private NewTopic newTopic;
+	
+	private KafkaTemplate<String, OrderEvent>  kafkaTemplate;
+}

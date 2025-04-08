@@ -1,0 +1,5 @@
+package com.StockService.kafka;
+
+public class OrderConsumer {
+
+}
